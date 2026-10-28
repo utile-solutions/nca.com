@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465 220" width="100%" height="100%">
+  <!-- Transparent Background -->
+  <style>
+    .acronym {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      font-size: 110px;
+      fill: #4D7363;
+      letter-spacing: 2px;
+    }
+    .subtext {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      fill: #4b7263;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <g transform="translate(20, 20)">
+    <!-- Main Acronym: NCA -->
+    <text x="30" y="128" class="acronym">NCA</text>
+
+    <!-- Vertical Divider Line -->
+    <line x1="275" y1="52" x2="275" y2="126" stroke="#DFCDAF" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Subtitle Text Block -->
+    <text x="290" y="68" class="subtext">Nordic</text>
+    <text x="290" y="97" class="subtext">Corporate</text>
+    <text x="290" y="126" class="subtext">Architects</text>
+  </g>
+</svg>
